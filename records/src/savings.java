@@ -20,6 +20,14 @@ public class savings {
         System.out.println("interest rate: " + rate);
         System.out.println("interest earned: " + interest);
         System.out.println("total : " + total);
+        int convertedinterest = (int) interest;
+        int convertedtotal = (int) total;
+        String rateasstring= Double.toString(rate);
+
+        System.out.println("\n---conversion accuracy---");
+        System.out.println("rounded interest: " + convertedinterest);
+        System.out.println("rounded total: " + convertedtotal);
+        System.out.println("Rate as String: "+ rateasstring);
 
     }
 }
