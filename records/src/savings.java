@@ -14,5 +14,6 @@ public class savings {
         interest = deposit * rate;
         total = deposit + interest;
     }
-
+    public static void records(){
+    }
 }
